@@ -5,13 +5,13 @@
 <p><strong>内置 DeepSeek Harness EAC 的独立 IDE —— VS Code 底座 · 万物皆插件 · 开箱即用</strong></p>
 
 <p>
-<a href="https://github.com/zouyuxuan122/Deepseek-Harness-EAC-IDE/releases"><img src="https://img.shields.io/badge/Windows-10%2F11-4493F8?style=flat" alt="Windows"></a>
-<a href="https://github.com/zouyuxuan122/Deepseek-Harness-EAC-IDE/releases"><img src="https://img.shields.io/badge/下载-Releases-2EA44F?style=flat" alt="Releases"></a>
-<a href="https://github.com/zouyuxuan122/Deepseek-Harness-EAC/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-2EA44F?style=flat" alt="MIT License"></a>
+<a href="https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC-IDE/releases"><img src="https://img.shields.io/badge/Windows-10%2F11-4493F8?style=flat" alt="Windows"></a>
+<a href="https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC-IDE/releases"><img src="https://img.shields.io/badge/下载-Releases-2EA44F?style=flat" alt="Releases"></a>
+<a href="https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-2EA44F?style=flat" alt="MIT License"></a>
 </p>
 
 <p>类似 Trae / Cursor 的产品形态：基于 VS Code 1.134 fork 底座，把
-<a href="https://github.com/zouyuxuan122/Deepseek-Harness-EAC">Deepseek Harness EAC</a>
+<a href="https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC">Deepseek Harness EAC</a>
 （一切皆插件的 agent harness 桌面版）的扩展与完整运行时<strong>内置</strong>进独立 IDE——
 启动即用、无需装扩展，鲸鱼品牌贯穿标题栏到欢迎页。</p>
 
@@ -24,7 +24,7 @@
 
 ## 下载
 
-前往 [**Releases**](https://github.com/zouyuxuan122/Deepseek-Harness-EAC-IDE/releases)：
+前往 [**Releases**](https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC-IDE/releases)：
 
 | 文件 | 说明 |
 |---|---|
@@ -50,10 +50,10 @@
 ## 源码与构建
 
 本仓库是 **IDE 的发布与文档仓库**；IDE 的组装脚本与扩展源码位于主仓库
-[`vscode` 分支](https://github.com/zouyuxuan122/Deepseek-Harness-EAC/tree/vscode)：
+[`vscode` 分支](https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC/tree/vscode)：
 
 ```bash
-git clone -b vscode https://github.com/zouyuxuan122/Deepseek-Harness-EAC.git
+git clone -b vscode https://github.com/Ebony-Vinyl/Deepseek-Harness-EAC.git
 cd Deepseek-Harness-EAC
 npm run ide            # 组装 dist-ide/（底座：IDE_BASE_ZIP 环境变量或第一个参数传 zip/目录）
 npm run ide:installer  # NSIS 安装器（需 7za + NSIS）
@@ -62,4 +62,4 @@ npm run verify:ide     # IDE 端到端验证
 
 ## 许可证
 
-[MIT](LICENSE) © 2026 zouyuxuan122
+[MIT](LICENSE) © 2026 Ebony-Vinyl
